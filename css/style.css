@@ -5,29 +5,28 @@
 }
 body{
     font-family: "Poppins", sans-serif;
-    background-image:linear-gradient(to right ,#eebd89, #d13abd);
-}
-header{
-    font-size: 2rem;
-    color: rgb(21, 14, 73);
-    font-family: "Poppins", sans-serif;
+    background-image:linear-gradient(to right ,#b21ddf, #d13abd);
 }
 #container{
     display: grid;
     place-items: center;
-    margin-top: 20vh;
+    margin-top: 10vh;
 }
-.section{
+#container .head header{
+    font-size: 2rem;
+    color: rgb(21, 14, 73);
+    font-family: "Poppins", sans-serif;
+}
+#container .section{
     display: flex;
     flex-direction: column;
-    margin-top: 2rem;
+    margin-top: 1rem;
     background-color: white;
     height: 15rem;
     justify-content: space-around;
     border-radius: 0.5rem;
-    box-shadow: 10px 5px 5px rgb(24, 23, 23);
 }
-form{
+#container .section form{
     display: flex;
     flex-direction: column;
     width: 25rem;
@@ -35,37 +34,34 @@ form{
     justify-content: center;
     margin-top: 2rem;
 }
-form input{
+#container .section form input{
     width: 15rem;
     height: 2rem;
     border: none;
     margin-top: 1rem;
     font-size: 1rem;
-}
-input:focus{
-    outline: none
-}
-.section input{
     border-bottom: 2px solid purple;
 }
-section{
+#container .section form input:focus{
+    outline: none
+}
+#container .section section{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-button{
+#container .section section button{
     width: 8rem;
     height: 2.2rem;
     border-radius: 1rem;
-    background: rgb(121, 121, 255);
+    background: rgb(75, 75, 230);
     color: white;
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
-    box-shadow: 8px 8px 10px rgb(24, 23, 23);
-}
-button:hover{
-    cursor: pointer;
-    background: rgb(179, 26, 179);
     
 }
-
+#container .section section button:hover{
+    cursor: pointer;
+    background: rgb(20, 60, 241);
+    
+}
